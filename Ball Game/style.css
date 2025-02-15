@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(70, 255, 178);
+}
+#gameContainer {
+  text-align: center;
+}
+#gameBoard {
+  border: 8px solid gold;
+  background-color: white;
+}
+#scoreText {
+  font-family: "consolas", monospace;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+}
+#resetBtn {
+  font-family: "Permanent Marker", cursive;
+  font-size: 22px;
+  width: 170px;
+  height: 60px;
+  border: 4px solid green;
+  border-radius: 15px;
+  cursor: pointer;
+  font-weight: 700;
+}
+#resetBtn:hover {
+  color: rgb(0, 128, 255);
+  background-color: rgb(255, 168, 121);
+}
